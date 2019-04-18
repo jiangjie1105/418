@@ -1,0 +1,65 @@
+<view class="page">
+  <!--页头-->
+  <view class="page__hd">
+    <view class="head">
+      <view>
+        <navigator url="/pages/my/info">
+          <image src="{{userInfo.avatarUrl}}"></image>
+        </navigator>
+      </view>
+      <view>
+        <text>{{userInfo.nickName}}</text>
+      </view>
+    </view>
+  </view>
+  <!--主体-->
+  <view class="page__bd">
+    <view class="list">
+
+      <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title">
+          <navigator url="/pages/myFiles/myFiles" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+              <image src="/images/2.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">我的档案</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">{{infoCount}}</view>
+          </navigator>
+          <navigator url="/pages/familyFiles/familyFiles" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+              <image src="/images/myArchives.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">家人档案</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">
+              <view class="weui-badge" wx:if="{{appointmentCount>0}}" style="margin-left: 5px;">{{appointmentCount}}</view>
+            </view>
+          </navigator>
+          <navigator url="/pages/visitingRecord/visitingRecord" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+              <image src="/images/visitingRecord3.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">就诊记录</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+          </navigator>
+          <navigator url="/pages/yuyue/yuyue" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+              <image src="/images/appointment.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">预约体检</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+          </navigator>
+          <navigator url="/pages/feedBack/feedBack" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+              <image src="/images/feedBack.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">意见反馈</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+          </navigator>
+        </view>
+      </view>
+
+
+    </view>
+  </view>
+  <!--没有页脚-->
+</view>

@@ -1,0 +1,87 @@
+.page-section-gap {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}
+
+/* 
+.horizon {
+  width: 100%;
+  height: 2px;
+  vertical-align: middle;
+  background-color: #e5e5e5;
+  position: relative;
+  top: 75rpx;
+  margin: 0 auto;
+  z-index: -99;
+} */
+
+/* 家人一信息 */
+
+.fml1 {
+  top: 50rpx;
+}
+
+/* 家人二信息 */
+
+.fml2 {
+  top: 50rpx;
+}
+
+.style1 {
+  display: flex;
+  font-size: 50rpx;
+  color: #23454d;
+  flex-direction: row;
+  /* display: flex; *//* justify-content: space-between; */
+  align-items: baseline;
+  margin: 60rpx 50rpx;
+  vertical-align: middle;
+  /* height: 150rpx; *//* border-bottom: 1px solid rgba(178, 190, 193, 0.4); */
+}
+
+.style2 {
+  font-size: 50rpx;
+  align-items: baseline;
+  margin: 60rpx 50rpx;
+  vertical-align: middle;
+}
+
+.call1 {
+  /* height: 70%; *//* width: 70%;  */
+  height: 100rpx;
+  width: 100rpx;
+  /* margin-right: -32rpx; */
+}
+
+.call2 {
+  height: 100rpx;
+  width: 100rpx;
+  /* margin-right: -32rpx; */
+}
+
+.list1 {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1.5;
+  /* flex-direction: row; *//* justify-content: flex-end;  *//* align-items: space-around;  */
+}
+
+.jj {
+  margin-right: 0rpx;
+}
+
+.jj2 {
+  margin-right: 0rpx;
+}
+
+.buttton-hover {
+  background-color: transparent !important;
+}
+
+button::after {
+  border: none;
+}
